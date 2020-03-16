@@ -34,72 +34,72 @@ xmlns:android="http://schemas.android.com/apk/res/android"
     </engines>
 
     <js-module src="www/DirectoryEntry.js" name="DirectoryEntry">
-        <clobbers target="window.DirectoryEntry" />
+        <clobbers target="window.CordovaPluginFile.DirectoryEntry" />
     </js-module>
 
     <js-module src="www/DirectoryReader.js" name="DirectoryReader">
-        <clobbers target="window.DirectoryReader" />
+        <clobbers target="window.CordovaPluginFile.DirectoryReader" />
     </js-module>
 
     <js-module src="www/Entry.js" name="Entry">
-        <clobbers target="window.Entry" />
+        <clobbers target="window.CordovaPluginFile.Entry" />
     </js-module>
 
     <js-module src="www/File.js" name="File">
-        <clobbers target="window.File" />
+        <clobbers target="window.CordovaPluginFile.File" />
     </js-module>
 
     <js-module src="www/FileEntry.js" name="FileEntry">
-        <clobbers target="window.FileEntry" />
+        <clobbers target="window.CordovaPluginFile.FileEntry" />
     </js-module>
 
     <js-module src="www/FileError.js" name="FileError">
-        <clobbers target="window.FileError" />
+        <clobbers target="window.CordovaPluginFile.FileError" />
     </js-module>
 
     <js-module src="www/FileReader.js" name="FileReader">
-        <clobbers target="window.FileReader" />
+        <clobbers target="window.CordovaPluginFile.FileReader" />
     </js-module>
 
     <js-module src="www/FileSystem.js" name="FileSystem">
-        <clobbers target="window.FileSystem" />
+        <clobbers target="window.CordovaPluginFile.FileSystem" />
     </js-module>
 
     <js-module src="www/FileUploadOptions.js" name="FileUploadOptions">
-        <clobbers target="window.FileUploadOptions" />
+        <clobbers target="window.CordovaPluginFile.FileUploadOptions" />
     </js-module>
 
     <js-module src="www/FileUploadResult.js" name="FileUploadResult">
-        <clobbers target="window.FileUploadResult" />
+        <clobbers target="window.CordovaPluginFile.FileUploadResult" />
     </js-module>
 
     <js-module src="www/FileWriter.js" name="FileWriter">
-        <clobbers target="window.FileWriter" />
+        <clobbers target="window.CordovaPluginFile.FileWriter" />
     </js-module>
 
     <js-module src="www/Flags.js" name="Flags">
-        <clobbers target="window.Flags" />
+        <clobbers target="window.CordovaPluginFile.Flags" />
     </js-module>
 
     <js-module src="www/LocalFileSystem.js" name="LocalFileSystem">
         <!-- Non-standards way -->
-        <clobbers target="window.LocalFileSystem" />
+        <clobbers target="window.CordovaPluginFile.LocalFileSystem" />
         <!-- Standards-compliant way -->
         <merges target="window" />
     </js-module>
 
     <js-module src="www/Metadata.js" name="Metadata">
-        <clobbers target="window.Metadata" />
+        <clobbers target="window.CordovaPluginFile.Metadata" />
     </js-module>
 
     <js-module src="www/ProgressEvent.js" name="ProgressEvent">
-        <clobbers target="window.ProgressEvent" />
+        <clobbers target="window.CordovaPluginFile.ProgressEvent" />
     </js-module>
 
     <js-module src="www/fileSystems.js" name="fileSystems" />
 
     <js-module src="www/requestFileSystem.js" name="requestFileSystem">
-        <clobbers target="window.requestFileSystem" />
+        <clobbers target="window.CordovaPluginFile.requestFileSystem" />
     </js-module>
 
     <js-module src="www/resolveLocalFileSystemURI.js" name="resolveLocalFileSystemURI">
